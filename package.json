@@ -1,0 +1,24 @@
+{
+  "name": "poc-ibm037",
+  "version": "1.0.0",
+  "description": "Template repository for PoCs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerrymannel/poc-IBM037.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jerrymannel/poc-IBM037/issues"
+  },
+  "homepage": "https://github.com/jerrymannel/poc-IBM037#readme",
+  "dependencies": {
+    "@shreenu21/cp037-converter": "^1.0.3"
+  }
+}
