@@ -23,3 +23,17 @@ The application generates two files:
 ## Tech Stack
 - Node.js
 - `@shreenu21/cp037-converter` for EBCDIC conversion.
+
+
+
+Read/Write file as ISO-8859-1
+```js
+fs.readFileSync(inputFile, 'latin1')
+fs.writeFileSync(isoOutputFile, contentUtf8, 'latin1');
+```
+
+Read/Write file as UTF-8
+```js
+fs.readFileSync(inputFile, 'utf8')
+fs.writeFileSync(utf8OutputFile, contentIso, 'utf8');
+```
